@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+  font-family:Arial;
 }
 
 @media (min-width: 768px) {
@@ -23,6 +24,7 @@ body {
 .wholePage{
     display: flex;
     flex-direction: column;
+    background-color: darksalmon;
 }
 .centerText{
     text-align:center;
@@ -46,14 +48,30 @@ th {
     border: 2px solid black;
     padding: 20px;
     background-color: grey;
+    text-decoration: none;
 }
-td {
-    border-spacing: 0px;
-    text-align: center;
-    border: 2px solid black;
-    padding: 20px;
+.ItemType{
+    background-color: palevioletred;
+}
+th a {
+    color: black;
+    text-decoration: none;
+    
+    padding: 15px;
+
+}
+th a:hover:not(:active) {
+    
+    transition: background-color 0.3s ease;    
+    background-color: orange;
+    
+}
+.active{
+    background-color: orangered;
 }
 table {
+    
+
     background-color: grey;
 }
 a{
@@ -64,4 +82,14 @@ a{
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+.itemTitle{
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+.underLine{
+    text-decoration: underline;
+    font-size: 40px;
 }
