@@ -4,7 +4,44 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    .noBorder{
+        border: 0px;
+    }
+</style>
+<div class="mainTable">
+    <table  style="border: 2px solid black;">
+            <tr>
+                <th>Snacks</th>
+                <th>Jank Food</th>
+                <th>Drinks</th>
+                <th>Fruit</th>
+            </tr>
+        <tr>
+            <th><a asp-page="/kitkat">KitKat</a></th>
+            <th>Jankfood1</th>
+            <th><a asp-page="/monster">Monster</a></th>
+            <th class="noBorder"></th>
+        </tr>
+
+        <tr>
+            <th class="noBorder"></th>
+            <th class="noBorder"></th>
+            <th class="noBorder"></th>
+            <th class="noBorder"></th>
+        </tr>
+        <tr>
+            <th class="noBorder"></th>
+            <th class="noBorder"></th>
+            <th class="noBorder"></th>
+            <th class="noBorder"></th>
+        </tr>
+        <tr>
+           
+        </tr>
+        </table>      
+</div>
+<div class="centerText">
+    <br />
+    <img src="~/img/images.jfif" />
 </div>

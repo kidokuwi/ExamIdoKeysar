@@ -20,3 +20,48 @@ html {
 body {
   margin-bottom: 60px;
 }
+.wholePage{
+    display: flex;
+    flex-direction: column;
+}
+.centerText{
+    text-align:center;
+}
+.caloriesCircle{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    align-content: center;
+    background-color: yellow;
+}
+
+.mainTable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+th {
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: grey;
+}
+td {
+    border-spacing: 0px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+}
+table {
+    background-color: grey;
+}
+a{
+    color: black;
+
+}
+.footerCalories{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
