@@ -28,6 +28,8 @@ body {
 }
 .centerText{
     text-align:center;
+    align-content: center;
+    align-items: center;
 }
 .caloriesCircle{
     border-radius: 100%;
@@ -92,4 +94,12 @@ a{
 .underLine{
     text-decoration: underline;
     font-size: 40px;
+}
+
+.box{
+    border: 2px solid black;
+    width: 400px;
+    align-content: center;
+    align-self: center;
+    text-align: center;
 }
